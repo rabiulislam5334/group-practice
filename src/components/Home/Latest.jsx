@@ -1,6 +1,6 @@
 function LatestCard({ num }) {
   return (
-    <div className="flex items-center gap-2 p-4 border rounded shadow-sm">
+    <div className="mx-auto flex items-center gap-2 p-4 border rounded shadow-sm">
       <h1 className="font-bold">Car Number</h1>
       <span>{num}</span>
     </div>

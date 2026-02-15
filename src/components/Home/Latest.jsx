@@ -9,7 +9,7 @@ function LatestCard({ num }) {
 
 function Latest() {
   return (
-    <div className="max-w-7xl mx-auto border flex flex-wrap gap-4 p-4">
+    <div className="max-w-7xl mx-auto border flex flex-wrap gap-4 p-4 mt-20">
       {[1, 2, 3, 4, 5].map((num, index) => (
         <LatestCard key={index} num={num} />
       ))}

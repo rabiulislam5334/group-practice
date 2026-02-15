@@ -1,9 +1,15 @@
 import Latest from '@/components/Home/Latest'
+import Footer from '@/components/Home/Footer'
 import React from 'react'
 
 function page() {
   return (
-    <div><Latest/></div>
+    <>
+    <Latest/>
+    <Footer/>
+    </>
+    
+
   )
 }
 
